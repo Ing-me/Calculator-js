@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fluid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
+}
+.fluid-container .header{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    background: rgb(20, 20, 20);
+    width: 400px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: green;
+    justify-content: center;
+    align-items: center;
+}
+.container .result{
+    background: rgb(27, 27, 27);
+    text-align: end;
+    width: 100%;
+    color: #fff;
+    height: 100px;
+    font-size: 60px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.content .firstLine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.content .firstLine > div {
+    flex: 1;
+    background: rgb(56, 51, 51);
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    height: 70px;
+    padding-top: 25px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+.content .firstLine > div:last-of-type{
+    margin-right: 0;
+    background: rgb(182, 155, 1);
+}
+
+
+.content .secondLine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.content .secondLine > div {
+    flex: 1;
+    background: rgb(56, 51, 51);
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    height: 70px;
+    padding-top: 25px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+.content .secondLine > div:last-of-type{
+    margin-right: 0;
+    background: rgb(182, 155, 1);
+}
+
+
+.content .thirdLine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.content .thirdLine > div {
+    flex: 1;
+    background: rgb(56, 51, 51);
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    height: 70px;
+    padding-top: 25px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+.content .thirdLine > div:last-of-type{
+    margin-right: 0;
+    background: rgb(182, 155, 1);
+}
+
+
+.content .fourthLine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.content .fourthLine > div {
+    flex: 1;
+    background: rgb(56, 51, 51);
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    height: 70px;
+    padding-top: 25px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+.content .fourthLine > div:last-of-type{
+    margin-right: 0;
+    background: rgb(182, 155, 1);
+}
+
+
+.content .fithLine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.content .fithLine > div {
+    flex: 1;
+    background: rgb(56, 51, 51);
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    height: 70px;
+    padding-top: 25px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+.content .fithLine > div:last-of-type{
+    margin-right: 0;
+    background: rgb(182, 155, 1);
+    margin-bottom: 0;
+}
+
+.content #backspace > img{
+    width: 50px;
+}
+
+.fluid-container .footer{
+    margin-top: 10px;
+    
+}
