@@ -5,45 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/calculator.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
     <div class="fluid-container">
-        <div class="header"><h1>Real calculator</h1></div>
+       
         <div class="container">
-            <div class="result">
+            <div class="display">
                 0
             </div>
             <div class="content">
                 <div class="firstLine">
-                    <div id="clear">AC</div>
-                    <div id="backspace">Backspace</div>
-                    <div id="modulo">%</div>
-                    <div id="division">/</div>
+                    <div id="clear" class="clear">AC</div>
+                    <div id="backspace" class="backspace">Backspace</div>
+                    <div id="modulo" class="operator">%</div>
+                    <div id="division" class="operator">/</div>
                 </div>
                 <div class="secondLine">
-                    <div id="seven">7</div>
-                    <div id="eight">8</div>
-                    <div id="nine">9</div>
-                    <div id="multiplication">x</div>
+                    <div id="seven" class="number">7</div>
+                    <div id="eight" class="number">8</div>
+                    <div id="nine" class="number">9</div>
+                    <div id="multiplication" class="operator">x</div>
                 </div>
                 <div class="thirdLine">
-                    <div id="four">4</div>
-                    <div id="five">5</div>
-                    <div id="six">6</div>
-                    <div id="moins">-</div>
+                    <div id="four" class="number">4</div>
+                    <div id="five" class="number">5</div>
+                    <div id="six" class="number">6</div>
+                    <div id="moins" class="operator">-</div>
                 </div>
                 <div class="fourthLine">
-                    <div id="one">1</div>
-                    <div id="two">2</div>
-                    <div id="three">3</div>
-                    <div id="plus">+</div>
+                    <div id="one" class="number">1</div>
+                    <div id="two" class="number">2</div>
+                    <div id="three" class="number">3</div>
+                    <div id="plus" class="operator">+</div>
                 </div>
                 <div class="fithLine">
-                    <div id="plusmoins">+/-</div>
-                    <div id="zero">0</div>
-                    <div id="point">.</div>
-                    <div id="equal">=</div>
+                    <div id="plusmoins" class="plusminus" value="-">+/-</div>
+                    <div id="zero" class="number">0</div>
+                    <div id="point" class="point">.</div>
+                    <div id="equal" class="equal">=</div>
                 </div>
             </div>
         </div>

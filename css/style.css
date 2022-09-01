@@ -29,29 +29,37 @@
     background: green;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    border-radius: 15px;
+   
 }
-.container .result{
+.container .display{
     background: rgb(27, 27, 27);
     text-align: end;
-    width: 100%;
+    width: 93%;
     color: #fff;
     height: 100px;
     font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-right: 10px;
-    padding-top: 40px;
+    padding-top: 35px;
+    border-radius: 15px;
 }
 .content{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 93%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 .content .firstLine{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    width: 100%;
 }
 .content .firstLine > div {
     flex: 1;
@@ -76,7 +84,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    width: 100%;
 }
 .content .secondLine > div {
     flex: 1;
@@ -101,7 +109,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    width: 100%;
 }
 .content .thirdLine > div {
     flex: 1;
@@ -126,7 +134,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    width: 100%;
 }
 .content .fourthLine > div {
     flex: 1;
@@ -151,7 +159,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    width: 100%;
 }
 .content .fithLine > div {
     flex: 1;
@@ -169,11 +177,12 @@
 .content .fithLine > div:last-of-type{
     margin-right: 0;
     background: rgb(182, 155, 1);
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .content #backspace > img{
     width: 50px;
+    margin-bottom: 5px;
 }
 
 .fluid-container .footer{
